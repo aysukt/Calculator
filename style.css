@@ -1,0 +1,76 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    background-color: rgb(227, 222, 222);
+    justify-content: center;
+    display: flex;
+}
+.main{
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    border-radius: 10px;
+    border: none;
+}
+.main .numbers{
+    background-color: rgb(137, 134, 134);
+    height: 400px;
+    text-align: left;
+    width: fit-content;
+    border-bottom: 10px;
+    
+}
+#a, #b, #c, #d, #e, #f, #g,#h,#i,#j,#k,#l,#m,#n,#o,#p{
+    width: 102px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 30%;
+    cursor: pointer
+}
+
+#on, #s{
+    width: 222px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 30%;
+    background-color: rgba(231, 151, 3, 0.828);
+}
+#screan{
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    background-color: #ffffffc5;
+    border: 5px solid #c4c4c4;
+}
+button:hover{
+    background-color: rgb(148, 194, 198);
+}
+.main .input{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: xx-large;
+    background-color: transparent;
+    color: #fff;
+}
+#p:hover{
+    background-color: rgb(57, 56, 56);
+
+}
+#on:hover{
+    background-color: rgb(57, 56, 56);
+}
+#s:hover{
+    background-color: #c2bca5;
+}
